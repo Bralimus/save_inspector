@@ -56,6 +56,12 @@ func main() {
 			return
 		}
 
+		err = data.Validate()
+		if err != nil {
+			fmt.Println("Validation error:", err)
+			return
+		}
+
 		// Backup original file
 		err = os.WriteFile(path+".bak", original, 0644)
 		if err != nil {
