@@ -1,0 +1,1793 @@
+{
+    "ownedChampions": [
+        {
+            "championID": "Mage",
+            "instanceID": "eb00cb04-f672-4bea-8931-94a1b2b288b8",
+            "originID": "",
+            "currentHealth": 100.0,
+            "currentShield": 0.0,
+            "currentExp": 0.0,
+            "level": 0,
+            "talentPoints": 0,
+            "statPoints": 0,
+            "bonusHealthPoints": 0,
+            "bonusPowerPoints": 0,
+            "bonusDefensePoints": 0,
+            "bonusSpeedPoints": 0,
+            "isUnlocked": true,
+            "selectedTalentNodeIndicesByAbility": [
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                }
+            ],
+            "equippedWeapon": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedArmor": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedTrinket": {
+                "itemID": "",
+                "upgradeLevel": 0
+            }
+        },
+        {
+            "championID": "Paladin",
+            "instanceID": "a75d8e11-0a41-4b76-ac4f-dbdb5f4c6777",
+            "originID": "",
+            "currentHealth": 100.0,
+            "currentShield": 0.0,
+            "currentExp": 0.0,
+            "level": 0,
+            "talentPoints": 0,
+            "statPoints": 0,
+            "bonusHealthPoints": 0,
+            "bonusPowerPoints": 0,
+            "bonusDefensePoints": 0,
+            "bonusSpeedPoints": 0,
+            "isUnlocked": true,
+            "selectedTalentNodeIndicesByAbility": [
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                }
+            ],
+            "equippedWeapon": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedArmor": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedTrinket": {
+                "itemID": "",
+                "upgradeLevel": 0
+            }
+        },
+        {
+            "championID": "Ranger",
+            "instanceID": "d8c75a66-d019-4728-95d0-e6ee9443775f",
+            "originID": "",
+            "currentHealth": 100.0,
+            "currentShield": 0.0,
+            "currentExp": 0.0,
+            "level": 0,
+            "talentPoints": 0,
+            "statPoints": 0,
+            "bonusHealthPoints": 0,
+            "bonusPowerPoints": 0,
+            "bonusDefensePoints": 0,
+            "bonusSpeedPoints": 0,
+            "isUnlocked": true,
+            "selectedTalentNodeIndicesByAbility": [
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                },
+                {
+                    "indices": []
+                }
+            ],
+            "equippedWeapon": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedArmor": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedTrinket": {
+                "itemID": "",
+                "upgradeLevel": 0
+            }
+        },
+        {
+            "championID": "Rogue",
+            "instanceID": "a99d7942-513d-40dd-9271-8559760bd5bc",
+            "originID": "",
+            "currentHealth": 100.0,
+            "currentShield": 0.0,
+            "currentExp": 0.0,
+            "level": 0,
+            "talentPoints": 0,
+            "statPoints": 0,
+            "bonusHealthPoints": 0,
+            "bonusPowerPoints": 0,
+            "bonusDefensePoints": 0,
+            "bonusSpeedPoints": 0,
+            "isUnlocked": false,
+            "selectedTalentNodeIndicesByAbility": [],
+            "equippedWeapon": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedArmor": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedTrinket": {
+                "itemID": "",
+                "upgradeLevel": 0
+            }
+        },
+        {
+            "championID": "Summoner",
+            "instanceID": "3b9ac03f-8c12-4561-874b-375b8e55aec7",
+            "originID": "",
+            "currentHealth": 100.0,
+            "currentShield": 0.0,
+            "currentExp": 0.0,
+            "level": 0,
+            "talentPoints": 0,
+            "statPoints": 0,
+            "bonusHealthPoints": 0,
+            "bonusPowerPoints": 0,
+            "bonusDefensePoints": 0,
+            "bonusSpeedPoints": 0,
+            "isUnlocked": false,
+            "selectedTalentNodeIndicesByAbility": [],
+            "equippedWeapon": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedArmor": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedTrinket": {
+                "itemID": "",
+                "upgradeLevel": 0
+            }
+        },
+        {
+            "championID": "Druid",
+            "instanceID": "deee1b21-5b07-4e3c-bc95-efabb158224c",
+            "originID": "",
+            "currentHealth": 100.0,
+            "currentShield": 0.0,
+            "currentExp": 0.0,
+            "level": 0,
+            "talentPoints": 0,
+            "statPoints": 0,
+            "bonusHealthPoints": 0,
+            "bonusPowerPoints": 0,
+            "bonusDefensePoints": 0,
+            "bonusSpeedPoints": 0,
+            "isUnlocked": false,
+            "selectedTalentNodeIndicesByAbility": [],
+            "equippedWeapon": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedArmor": {
+                "itemID": "",
+                "upgradeLevel": 0
+            },
+            "equippedTrinket": {
+                "itemID": "",
+                "upgradeLevel": 0
+            }
+        }
+    ],
+    "selectedChampionIDs": [
+        "Paladin",
+        "Mage",
+        "Ranger"
+    ],
+    "itemInventory": [
+        {
+            "itemID": "Novice Sword",
+            "upgradeLevel": 0
+        },
+        {
+            "itemID": "Ring of Health",
+            "upgradeLevel": 0
+        },
+        {
+            "itemID": "Heavy Armour",
+            "upgradeLevel": 0
+        },
+        {
+            "itemID": "Medium Armour",
+            "upgradeLevel": 0
+        },
+        {
+            "itemID": "Light Armour",
+            "upgradeLevel": 0
+        }
+    ],
+    "materialInventory": [
+        {
+            "materialID": "Iron Ore",
+            "quantity": 1
+        },
+        {
+            "materialID": "Magic Dust",
+            "quantity": 1
+        }
+    ],
+    "gold": 100,
+    "dungeonState": {
+        "roomContentDatabaseID": "Necropolis_Dungeon",
+        "maze": {
+            "gridWidth": 4,
+            "gridHeight": 4,
+            "rooms": [
+                {
+                    "gridPosition": {
+                        "x": 0,
+                        "y": 0
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 1,
+                    "doorNorth": true,
+                    "doorEast": true,
+                    "doorSouth": false,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "TutorialEnemy",
+                            "position": {
+                                "x": 0.0,
+                                "y": 3.0299999713897707,
+                                "z": -1.0
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Enemy Dummy"
+                            ]
+                        },
+                        {
+                            "enemyID": "TutorialEnemy",
+                            "position": {
+                                "x": 7.010000228881836,
+                                "y": 0.0,
+                                "z": -1.0
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Enemy Dummy"
+                            ]
+                        }
+                    ],
+                    "chests": [
+                        {
+                            "chestID": "",
+                            "position": {
+                                "x": 6.75,
+                                "y": 2.6600000858306886,
+                                "z": -1.0
+                            }
+                        }
+                    ],
+                    "decor": [
+                        {
+                            "decorID": "Merchant",
+                            "position": {
+                                "x": -3.799999952316284,
+                                "y": 2.4200000762939455,
+                                "z": -1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gridPosition": {
+                        "x": 0,
+                        "y": 1
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": true,
+                    "doorEast": true,
+                    "doorSouth": true,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_0_1_Guard_1",
+                            "position": {
+                                "x": 0.009999990463256836,
+                                "y": 6.67425537109375,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_1_Guard_2",
+                            "position": {
+                                "x": 7.430000305175781,
+                                "y": 10.124255180358887,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Headsman",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_1_Guard_0",
+                            "position": {
+                                "x": 0.019999980926513673,
+                                "y": 13.574254989624024,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_1_Guard_3",
+                            "position": {
+                                "x": -7.460000038146973,
+                                "y": 10.154254913330079,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_1_Patrol_2",
+                            "position": {
+                                "x": 5.840000152587891,
+                                "y": 7.624255180358887,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Headsman",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_1_Patrol_0",
+                            "position": {
+                                "x": -5.899999618530273,
+                                "y": 12.574254989624024,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_1_Patrol_1",
+                            "position": {
+                                "x": 5.699999809265137,
+                                "y": 12.714255332946778,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Headsman",
+                                "Cultist"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 0,
+                        "y": 2
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": true,
+                    "doorEast": false,
+                    "doorSouth": true,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_0_2_Guard_1",
+                            "position": {
+                                "x": 0.009999990463256836,
+                                "y": 16.788509368896486,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_2_Guard_3",
+                            "position": {
+                                "x": -7.460000038146973,
+                                "y": 20.268510818481447,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_2_Patrol_1",
+                            "position": {
+                                "x": 5.699999809265137,
+                                "y": 22.828510284423829,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_2_Patrol_2",
+                            "position": {
+                                "x": 5.840000152587891,
+                                "y": 17.738510131835939,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 0,
+                        "y": 3
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": false,
+                    "doorEast": false,
+                    "doorSouth": true,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_0_3_Guard_3",
+                            "position": {
+                                "x": -7.460000038146973,
+                                "y": 30.382766723632814,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_3_Guard_0",
+                            "position": {
+                                "x": 0.019999980926513673,
+                                "y": 33.802764892578128,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_3_Patrol_0",
+                            "position": {
+                                "x": -5.899999618530273,
+                                "y": 32.802764892578128,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_0_3_Patrol_3",
+                            "position": {
+                                "x": -5.880000114440918,
+                                "y": 27.84276580810547,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        }
+                    ],
+                    "chests": [
+                        {
+                            "chestID": "Chest_0_3_0",
+                            "position": {
+                                "x": 4.020000457763672,
+                                "y": 30.332765579223634,
+                                "z": -1.045778751373291
+                            }
+                        },
+                        {
+                            "chestID": "Chest_0_3_1",
+                            "position": {
+                                "x": -7.200000286102295,
+                                "y": 27.232765197753908,
+                                "z": -1.045778751373291
+                            }
+                        },
+                        {
+                            "chestID": "Chest_0_3_2",
+                            "position": {
+                                "x": 7.201999664306641,
+                                "y": 27.172765731811525,
+                                "z": -1.045778751373291
+                            }
+                        }
+                    ],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 1,
+                        "y": 0
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": false,
+                    "doorEast": true,
+                    "doorSouth": false,
+                    "doorWest": true,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_1_0_Guard_2",
+                            "position": {
+                                "x": 25.355411529541017,
+                                "y": 0.010000050067901612,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_0_Guard_1",
+                            "position": {
+                                "x": 17.93541145324707,
+                                "y": -3.43999981880188,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_0_Guard_0",
+                            "position": {
+                                "x": 17.945411682128908,
+                                "y": 3.4600000381469728,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_0_Guard_3",
+                            "position": {
+                                "x": 10.465411186218262,
+                                "y": 0.04000002145767212,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_0_Patrol_1",
+                            "position": {
+                                "x": 23.625411987304689,
+                                "y": 2.6000001430511476,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_0_Patrol_0",
+                            "position": {
+                                "x": 12.025411605834961,
+                                "y": 2.4600000381469728,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        }
+                    ],
+                    "chests": [
+                        {
+                            "chestID": "Chest_1_0_0",
+                            "position": {
+                                "x": 25.144411087036134,
+                                "y": 3.111999988555908,
+                                "z": -1.045778751373291
+                            }
+                        }
+                    ],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 1,
+                        "y": 1
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": true,
+                    "doorEast": false,
+                    "doorSouth": false,
+                    "doorWest": true,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_1_1_Guard_3",
+                            "position": {
+                                "x": 10.465411186218262,
+                                "y": 10.154254913330079,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_1_Guard_0",
+                            "position": {
+                                "x": 17.945411682128908,
+                                "y": 13.574254989624024,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_1_Guard_1",
+                            "position": {
+                                "x": 17.93541145324707,
+                                "y": 6.67425537109375,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_1_Guard_2",
+                            "position": {
+                                "x": 25.355411529541017,
+                                "y": 10.124255180358887,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Headsman",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_1_Patrol_3",
+                            "position": {
+                                "x": 12.045411109924317,
+                                "y": 7.614254951477051,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_1_Patrol_0",
+                            "position": {
+                                "x": 12.025411605834961,
+                                "y": 12.574254989624024,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 1,
+                        "y": 2
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": true,
+                    "doorEast": false,
+                    "doorSouth": true,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_1_2_Guard_0",
+                            "position": {
+                                "x": 17.945411682128908,
+                                "y": 23.68851089477539,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_2_Guard_1",
+                            "position": {
+                                "x": 17.93541145324707,
+                                "y": 16.788509368896486,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        }
+                    ],
+                    "chests": [
+                        {
+                            "chestID": "Chest_1_2_0",
+                            "position": {
+                                "x": 21.945411682128908,
+                                "y": 20.218509674072267,
+                                "z": -1.045778751373291
+                            }
+                        }
+                    ],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 1,
+                        "y": 3
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": false,
+                    "doorEast": true,
+                    "doorSouth": true,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_1_3_Patrol_2",
+                            "position": {
+                                "x": 23.765411376953126,
+                                "y": 27.852766036987306,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_3_Patrol_3",
+                            "position": {
+                                "x": 12.045411109924317,
+                                "y": 27.84276580810547,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_1_3_Patrol_0",
+                            "position": {
+                                "x": 12.025411605834961,
+                                "y": 32.802764892578128,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist",
+                                "Corpse At Arms"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 2,
+                        "y": 0
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": true,
+                    "doorEast": false,
+                    "doorSouth": false,
+                    "doorWest": true,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_2_0_Guard_1",
+                            "position": {
+                                "x": 35.86082077026367,
+                                "y": -3.43999981880188,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Corpse At Arms",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_0_Guard_3",
+                            "position": {
+                                "x": 28.390823364257814,
+                                "y": 0.04000002145767212,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_0_Guard_0",
+                            "position": {
+                                "x": 35.87082290649414,
+                                "y": 3.4600000381469728,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_0_Guard_2",
+                            "position": {
+                                "x": 43.28082275390625,
+                                "y": 0.010000050067901612,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_0_Patrol_0",
+                            "position": {
+                                "x": 29.950822830200197,
+                                "y": 2.4600000381469728,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Cultist",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_0_Patrol_2",
+                            "position": {
+                                "x": 41.69082260131836,
+                                "y": -2.490000009536743,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_0_Patrol_1",
+                            "position": {
+                                "x": 41.55082321166992,
+                                "y": 2.6000001430511476,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_0_Patrol_3",
+                            "position": {
+                                "x": 29.970821380615236,
+                                "y": -2.5,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        }
+                    ],
+                    "chests": [
+                        {
+                            "chestID": "Chest_2_0_0",
+                            "position": {
+                                "x": 39.87082290649414,
+                                "y": -0.009999990463256836,
+                                "z": -1.045778751373291
+                            }
+                        }
+                    ],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 2,
+                        "y": 1
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": true,
+                    "doorEast": true,
+                    "doorSouth": true,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_2_1_Guard_1",
+                            "position": {
+                                "x": 35.86082077026367,
+                                "y": 6.67425537109375,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_1_Guard_3",
+                            "position": {
+                                "x": 28.390823364257814,
+                                "y": 10.154254913330079,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_1_Guard_2",
+                            "position": {
+                                "x": 43.28082275390625,
+                                "y": 10.124255180358887,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Headsman",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_1_Guard_0",
+                            "position": {
+                                "x": 35.87082290649414,
+                                "y": 13.574254989624024,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_1_Patrol_1",
+                            "position": {
+                                "x": 41.55082321166992,
+                                "y": 12.714255332946778,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Corpse At Arms",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_1_Patrol_0",
+                            "position": {
+                                "x": 29.950822830200197,
+                                "y": 12.574254989624024,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 2,
+                        "y": 2
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": false,
+                    "doorEast": false,
+                    "doorSouth": true,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_2_2_Guard_1",
+                            "position": {
+                                "x": 35.86082077026367,
+                                "y": 16.788509368896486,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_2_Guard_3",
+                            "position": {
+                                "x": 28.390823364257814,
+                                "y": 20.268510818481447,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_2_Guard_2",
+                            "position": {
+                                "x": 43.28082275390625,
+                                "y": 20.238510131835939,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_2_Guard_0",
+                            "position": {
+                                "x": 35.87082290649414,
+                                "y": 23.68851089477539,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_2_Patrol_2",
+                            "position": {
+                                "x": 41.69082260131836,
+                                "y": 17.738510131835939,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_2_Patrol_0",
+                            "position": {
+                                "x": 29.950822830200197,
+                                "y": 22.68851089477539,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_2_Patrol_3",
+                            "position": {
+                                "x": 29.970821380615236,
+                                "y": 17.7285099029541,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Cultist",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_2_Patrol_1",
+                            "position": {
+                                "x": 41.55082321166992,
+                                "y": 22.828510284423829,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 2,
+                        "y": 3
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": false,
+                    "doorEast": true,
+                    "doorSouth": false,
+                    "doorWest": true,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_2_3_Guard_1",
+                            "position": {
+                                "x": 35.86082077026367,
+                                "y": 26.90276527404785,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_3_Guard_2",
+                            "position": {
+                                "x": 43.28082275390625,
+                                "y": 30.352766036987306,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman",
+                                "Corpse At Arms",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_3_Guard_0",
+                            "position": {
+                                "x": 35.87082290649414,
+                                "y": 33.802764892578128,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_3_Patrol_2",
+                            "position": {
+                                "x": 41.69082260131836,
+                                "y": 27.852766036987306,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_3_Patrol_0",
+                            "position": {
+                                "x": 29.950822830200197,
+                                "y": 32.802764892578128,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_3_Patrol_1",
+                            "position": {
+                                "x": 41.55082321166992,
+                                "y": 32.94276428222656,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_2_3_Patrol_3",
+                            "position": {
+                                "x": 29.970821380615236,
+                                "y": 27.84276580810547,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Corpse At Arms",
+                                "Headsman"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 3,
+                        "y": 0
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": true,
+                    "doorEast": false,
+                    "doorSouth": false,
+                    "doorWest": false,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_3_0_Patrol_3",
+                            "position": {
+                                "x": 47.89623260498047,
+                                "y": -2.5,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Headsman",
+                                "Cultist"
+                            ]
+                        }
+                    ],
+                    "chests": [],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 3,
+                        "y": 1
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": false,
+                    "doorEast": false,
+                    "doorSouth": true,
+                    "doorWest": true,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_3_1_Patrol_1",
+                            "position": {
+                                "x": 59.476234436035159,
+                                "y": 12.714255332946778,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_3_1_Patrol_2",
+                            "position": {
+                                "x": 59.616233825683597,
+                                "y": 7.624255180358887,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": 0,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Headsman",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_3_1_Patrol_3",
+                            "position": {
+                                "x": 47.89623260498047,
+                                "y": 7.614254951477051,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_3_1_Patrol_0",
+                            "position": {
+                                "x": 47.87623596191406,
+                                "y": 12.574254989624024,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": 2,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Corpse At Arms"
+                            ]
+                        }
+                    ],
+                    "chests": [
+                        {
+                            "chestID": "Chest_3_1_0",
+                            "position": {
+                                "x": 53.796234130859378,
+                                "y": 10.124255180358887,
+                                "z": -1.045778751373291
+                            }
+                        }
+                    ],
+                    "decor": []
+                },
+                {
+                    "gridPosition": {
+                        "x": 3,
+                        "y": 2
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 2,
+                    "doorNorth": true,
+                    "doorEast": false,
+                    "doorSouth": false,
+                    "doorWest": false,
+                    "enemies": [],
+                    "chests": [],
+                    "decor": [
+                        {
+                            "decorID": "Necropolis Crypt",
+                            "position": {
+                                "x": 53.7762336730957,
+                                "y": 20.878509521484376,
+                                "z": -1.0
+                            }
+                        }
+                    ]
+                },
+                {
+                    "gridPosition": {
+                        "x": 3,
+                        "y": 3
+                    },
+                    "exists": true,
+                    "distanceFromStart": 0,
+                    "roomType": 0,
+                    "doorNorth": false,
+                    "doorEast": false,
+                    "doorSouth": true,
+                    "doorWest": true,
+                    "enemies": [
+                        {
+                            "enemyID": "Enemy_3_3_Guard_0",
+                            "position": {
+                                "x": 53.796234130859378,
+                                "y": 33.802764892578128,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 0,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Corpse At Arms",
+                                "Cultist"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_3_3_Guard_3",
+                            "position": {
+                                "x": 46.31623458862305,
+                                "y": 30.382766723632814,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 3,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_3_3_Guard_2",
+                            "position": {
+                                "x": 61.206233978271487,
+                                "y": 30.352766036987306,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 2,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Cultist",
+                                "Corpse At Arms"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_3_3_Guard_1",
+                            "position": {
+                                "x": 53.786231994628909,
+                                "y": 26.90276527404785,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Guard",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": -1,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        },
+                        {
+                            "enemyID": "Enemy_3_3_Patrol_1",
+                            "position": {
+                                "x": 59.476234436035159,
+                                "y": 32.94276428222656,
+                                "z": -1.045778751373291
+                            },
+                            "spawnType": "Patrol",
+                            "spawnIndex": 1,
+                            "patrolTargetIndex": 1,
+                            "assignedChampionIDs": [
+                                "Headsman"
+                            ]
+                        }
+                    ],
+                    "chests": [
+                        {
+                            "chestID": "Chest_3_3_0",
+                            "position": {
+                                "x": 60.978233337402347,
+                                "y": 27.172765731811525,
+                                "z": -1.045778751373291
+                            }
+                        }
+                    ],
+                    "decor": []
+                }
+            ]
+        },
+        "roomStates": [],
+        "playerPosition": {
+            "x": -6.840000152587891,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "cameraPosition": {
+            "x": 0.0,
+            "y": 0.0,
+            "z": 0.0
+        },
+        "savedCameraRoomIndex": {
+            "x": 0,
+            "y": 0
+        }
+    },
+    "sceneName": "DungeonMap1",
+    "combatSaveData": {
+        "combatID": "",
+        "enemyGold": 0,
+        "enemyLoot": [],
+        "combatants": [],
+        "roundCounter": 0,
+        "turnOrderInstanceIDs": [],
+        "currentTurnIndex": 0,
+        "backgroundIndex": 0
+    },
+    "lastSaveTimeString": "2026-04-13T08:12:33.5001414-04:00",
+    "legacySaveData": {
+        "totalLegacyPower": 0,
+        "hasSeenTutorial": false,
+        "appliedUpgradeIDs": [],
+        "ultimateCharges": []
+    },
+    "legacyRunSaveData": {
+        "roomsCleared": 0,
+        "enemiesDefeated": 0,
+        "elitesDefeated": 0,
+        "bossesDefeated": 0,
+        "totalDamageDealt": 0,
+        "goldCollected": 0
+    },
+    "hasCompletedRun": false,
+    "completedTutorials": [
+        10,
+        2,
+        6,
+        7,
+        8
+    ],
+    "saveName": "1",
+    "settings": {
+        "musicVolume": 0.0,
+        "sfxVolume": 0.0
+    },
+    "saveVersion": 1
+}
