@@ -1,4 +1,4 @@
-# save_inspector
+# Evershard Save Inspector
 
 A CLI tool built in Go for inspecting and safely editing Unity JSON save files for Evershard: Heroes of Gallan's Landing.
 
