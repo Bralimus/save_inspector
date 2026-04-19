@@ -29,26 +29,45 @@ func LoadSave(path string) (*models.SaveData, []byte, error) {
 		data.Gold = int(val)
 	}
 
-	if val, ok := raw["currentDungeon"].(string); ok {
-		data.CurrentDungeon = val
+	if val, ok := raw["sceneName"].(string); ok {
+		data.SceneName = val
 	}
 
-	if partyRaw, ok := raw["party"].([]interface{}); ok {
-		for _, p := range partyRaw {
-			if pMap, ok := p.(map[string]interface{}); ok {
+	selectedChampions := map[string]bool{}
+
+	if selRaw, ok := raw["selectedChampionIDs"].([]interface{}); ok {
+		for _, s := range selRaw {
+			if id, ok := s.(string); ok {
+				selectedChampions[id] = true
+			}
+		}
+	}
+
+	if champsRaw, ok := raw["ownedChampions"].([]interface{}); ok {
+		for _, c := range champsRaw {
+			if cMap, ok := c.(map[string]interface{}); ok {
 				champ := models.Champion{}
 
-				if id, ok := pMap["id"].(string); ok {
+				if id, ok := cMap["championID"].(string); ok {
 					champ.ID = id
 				}
-				if lvl, ok := pMap["level"].(float64); ok {
+				if lvl, ok := cMap["level"].(float64); ok {
 					champ.Level = int(lvl)
 				}
-				if hp, ok := pMap["hp"].(float64); ok {
+				if hp, ok := cMap["currentHealth"].(float64); ok {
 					champ.HP = int(hp)
 				}
+				if unlocked, ok := cMap["isUnlocked"].(bool); ok {
+					champ.Unlocked = unlocked
+				}
 
-				data.Party = append(data.Party, champ)
+				champ.IsInParty = selectedChampions[champ.ID]
+
+				data.All = append(data.All, champ)
+
+				if champ.IsInParty && champ.Unlocked {
+					data.Party = append(data.Party, champ)
+				}
 			}
 		}
 	}

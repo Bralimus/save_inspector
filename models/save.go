@@ -3,17 +3,20 @@ package models
 import "fmt"
 
 type SaveData struct {
-	Gold           int        `json:"gold"`
-	CurrentDungeon string     `json:"currentDungeon"`
-	Party          []Champion `json:"party"`
+	Gold      int        `json:"gold"`
+	SceneName string     `json:"sceneName"`
+	Party     []Champion `json:"party"`
+	All       []Champion `json:"all"`
 
 	Raw map[string]interface{} `json:"-"`
 }
 
 type Champion struct {
-	ID    string `json:"id"`
-	Level int    `json:"level"`
-	HP    int    `json:"hp"`
+	ID        string `json:"championID"`
+	Level     int    `json:"level"`
+	HP        int    `json:"currentHealth"`
+	Unlocked  bool   `json:"isUnlocked"`
+	IsInParty bool   `json:"isInParty"`
 }
 
 func (s *SaveData) Validate() error {
