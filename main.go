@@ -104,7 +104,7 @@ func main() {
 			data.Raw["gold"] = newGold
 
 		default:
-			fmt.Println("Unknown field: %s", field)
+			fmt.Println("Unknown field: ", field)
 			return
 		}
 

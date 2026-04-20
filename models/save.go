@@ -12,11 +12,27 @@ type SaveData struct {
 }
 
 type Champion struct {
-	ID        string `json:"championID"`
-	Level     int    `json:"level"`
-	HP        int    `json:"currentHealth"`
-	Unlocked  bool   `json:"isUnlocked"`
-	IsInParty bool   `json:"isInParty"`
+	ID                 string `json:"championID"`
+	Level              int    `json:"level"`
+	Experience         int    `json:"currentEXP"`
+	HP                 int    `json:"currentHealth"`
+	Shield             int    `json:"currentShield"`
+	BonusDefensePoints int    `json:"bonusDefensePoints"`
+	BonusHealthPoints  int    `json:"bonusHealthPoints"`
+	BonusPowerPoints   int    `json:"bonusPowerPoints"`
+	BonusSpeedPoints   int    `json:"bonusSpeedPoints"`
+	EquippedArmor      Item   `json:"equippedArmor"`
+	EquippedWeapon     Item   `json:"equippedWeapon"`
+	EquippedTrinket    Item   `json:"equippedTrinket"`
+	StatPoints         int    `json:"statPoints"`
+	TalentPoints       int    `json:"talentPoints"`
+	Unlocked           bool   `json:"isUnlocked"`
+	IsInParty          bool   `json:"isInParty"`
+}
+
+type Item struct {
+	ID           string `json:"itemID"`
+	UpgradeLevel int    `json:"upgradeLevel"`
 }
 
 func (s *SaveData) Validate() error {
