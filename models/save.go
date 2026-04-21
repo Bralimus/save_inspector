@@ -41,11 +41,11 @@ func (s *SaveData) Validate() error {
 	}
 
 	for _, champ := range s.Party {
-		if champ.Level < 1 {
+		if champ.Level < 0 {
 			return fmt.Errorf("champion %s has invalid level", champ.ID)
 		}
 		if champ.HP < 0 {
-			return fmt.Errorf("champion %s has negaitve HP", champ.ID)
+			return fmt.Errorf("champion %s has negative HP", champ.ID)
 		}
 	}
 

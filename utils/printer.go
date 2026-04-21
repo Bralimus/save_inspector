@@ -34,21 +34,26 @@ func PrintChampions(party []models.Champion, all []models.Champion) {
 
 		fmt.Printf("%s %-8s - Lvl %d - HP %d%s\n",
 			check, c.ID, c.Level, c.HP, lock)
-
-		fmt.Println()
-		fmt.Printf("Experience: %d\n", c.Experience)
-		fmt.Printf("Shield: %d\n", c.Shield)
-		fmt.Printf("Bonus Defense: %d\n", c.BonusDefensePoints)
-		fmt.Printf("Bonus Health: %d\n", c.BonusHealthPoints)
-		fmt.Printf("Bonus Power: %d\n", c.BonusPowerPoints)
-		fmt.Printf("Bonus Speed: %d\n", c.BonusSpeedPoints)
-
-		fmt.Printf("Equipped Armor: %s (Upgrade Level %d)\n", c.EquippedArmor.ID, c.EquippedArmor.UpgradeLevel)
-		fmt.Printf("Equipped Weapon: %s (Upgrade Level %d)\n", c.EquippedWeapon.ID, c.EquippedWeapon.UpgradeLevel)
-		fmt.Printf("Equipped Trinket: %s (Upgrade Level %d)\n", c.EquippedTrinket.ID, c.EquippedTrinket.UpgradeLevel)
-
-		fmt.Printf("Stat Points: %d\n", c.StatPoints)
-		fmt.Printf("Talent Points: %d\n", c.TalentPoints)
-		fmt.Println()
 	}
+}
+
+func PrintChampion(c models.Champion) {
+	fmt.Printf("=== CHAMPION: %s ===\n", c.ID)
+	fmt.Printf("Level: %d\n", c.Level)
+	fmt.Printf("Experience: %d\n", c.Experience)
+	fmt.Printf("Current HP: %d\n", c.HP)
+	fmt.Printf("Shield: %d\n", c.Shield)
+	fmt.Printf("Bonus Defense: %d\n", c.BonusDefensePoints)
+	fmt.Printf("Bonus Health: %d\n", c.BonusHealthPoints)
+	fmt.Printf("Bonus Power: %d\n", c.BonusPowerPoints)
+	fmt.Printf("Bonus Speed: %d\n", c.BonusSpeedPoints)
+
+	fmt.Printf("Equipped Armor: %s (Upgrade Level %d)\n", c.EquippedArmor.ID, c.EquippedArmor.UpgradeLevel)
+	fmt.Printf("Equipped Weapon: %s (Upgrade Level %d)\n", c.EquippedWeapon.ID, c.EquippedWeapon.UpgradeLevel)
+	fmt.Printf("Equipped Trinket: %s (Upgrade Level %d)\n", c.EquippedTrinket.ID, c.EquippedTrinket.UpgradeLevel)
+
+	fmt.Printf("Stat Points: %d\n", c.StatPoints)
+	fmt.Printf("Talent Points: %d\n", c.TalentPoints)
+	fmt.Printf("Unlocked: %t\n", c.Unlocked)
+	fmt.Printf("In Party: %t\n", c.IsInParty)
 }
