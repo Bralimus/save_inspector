@@ -10,15 +10,15 @@ A CLI tool built in Go for inspecting and safely editing Unity JSON save files f
  - Preserves untouched JSON fields (no data loss)
 
 ## Usage
-1. View list of save files
+1. View list of save files <br>
     `go run main.go list`
-2. View editable fields within save file
+2. View editable fields within save file <br>
     `go run main.go view <slot #>`
-3. View champions within specified save file
+3. View champions within specified save file <br>
     `go run main.go view-champion <slot #> <championID>`
-4. Edit field within save file to desired value
+4. Edit field within save file to desired value <br>
     `go run main.go edit <slot #> <field> <value>`
-5. Edit champion specific fields to desired value
+5. Edit champion specific fields to desired value <br>
     `go run main.go edit-champion <slot #> <championID> <field> <value>`
 
 ## How It Works
