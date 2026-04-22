@@ -33,6 +33,36 @@ func LoadSave(path string) (*models.SaveData, []byte, error) {
 		data.SceneName = val
 	}
 
+	if itemsRaw, ok := raw["itemInventory"].([]interface{}); ok {
+		for _, i := range itemsRaw {
+			if itemMap, ok := i.(map[string]interface{}); ok {
+				item := models.Item{}
+				if id, ok := itemMap["itemID"].(string); ok {
+					item.ID = id
+				}
+				if lvl, ok := itemMap["upgradeLevel"].(float64); ok {
+					item.UpgradeLevel = int(lvl)
+				}
+				data.ItemInventory = append(data.ItemInventory, item)
+			}
+		}
+	}
+
+	if matsRaw, ok := raw["materialInventory"].([]interface{}); ok {
+		for _, m := range matsRaw {
+			if matMap, ok := m.(map[string]interface{}); ok {
+				mat := models.Material{}
+				if id, ok := matMap["materialID"].(string); ok {
+					mat.ID = id
+				}
+				if qty, ok := matMap["quantity"].(float64); ok {
+					mat.Quantity = int(qty)
+				}
+				data.MaterialInventory = append(data.MaterialInventory, mat)
+			}
+		}
+	}
+
 	selectedChampions := map[string]bool{}
 
 	if selRaw, ok := raw["selectedChampionIDs"].([]interface{}); ok {

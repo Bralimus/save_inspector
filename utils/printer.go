@@ -11,6 +11,9 @@ func PrintSummary(data *models.SaveData) {
 	fmt.Println("Gold:", data.Gold)
 	fmt.Println("Scene:", data.SceneName)
 
+	fmt.Println("Items:", len(data.ItemInventory))
+	fmt.Println("Materials:", len(data.MaterialInventory))
+
 	PrintChampions(data.Party, data.All)
 }
 
@@ -56,4 +59,18 @@ func PrintChampion(c models.Champion) {
 	fmt.Printf("Talent Points: %d\n", c.TalentPoints)
 	fmt.Printf("Unlocked: %t\n", c.Unlocked)
 	fmt.Printf("In Party: %t\n", c.IsInParty)
+}
+
+func PrintItemInventory(items []models.Item) {
+	fmt.Println("=== ITEM INVENTORY ===")
+	for i, item := range items {
+		fmt.Printf("[%d] %s (Upgrade Level %d)\n", i, item.ID, item.UpgradeLevel)
+	}
+}
+
+func PrintMaterialInventory(materials []models.Material) {
+	fmt.Println("=== MATERIAL INVENTORY ===")
+	for i, mat := range materials {
+		fmt.Printf("[%d] %s x%d\n", i, mat.ID, mat.Quantity)
+	}
 }
