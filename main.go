@@ -110,6 +110,36 @@ func main() {
 
 		utils.PrintChampion(*champ)
 
+	case "view-inventory":
+		if len(os.Args) < 3 {
+			fmt.Println("Usage: save-inspector view-inventory <slot>")
+			return
+		}
+
+		slot := os.Args[2]
+
+		path, err := utils.GetSavePathFromSlot(slot, overridePath)
+		if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
+
+		data, _, err := parser.LoadSave(path)
+		if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
+
+		fmt.Println("=== ITEM INVENTORY ===")
+		for _, item := range data.ItemInventory {
+			fmt.Printf("- %s (Upgrade Level: %d)\n", item.ID, item.UpgradeLevel)
+		}
+
+		fmt.Println("\n=== MATERIAL INVENTORY ===")
+		for _, mat := range data.MaterialInventory {
+			fmt.Printf("- %s (Qty: %d)\n", mat.ID, mat.Quantity)
+		}
+
 	case "edit":
 		if len(os.Args) < 5 {
 			fmt.Println("Usage: save-inspector edit <slot> <field> <value>")
@@ -268,6 +298,198 @@ func main() {
 		}
 
 		fmt.Println("Champion updated successfully")
+
+	case "edit-items":
+		if len(os.Args) < 5 {
+			fmt.Println("Usage: save-inspector edit-items <slot> <itemID> <action>")
+			return
+		}
+
+		slot := os.Args[2]
+		itemID := os.Args[3]
+		action := os.Args[4]
+
+		path, err := utils.GetSavePathFromSlot(slot, overridePath)
+		if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
+
+		data, original, err := parser.LoadSave(path)
+		if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
+
+		itemsRaw, ok := data.Raw["itemInventory"].([]interface{})
+		if !ok {
+			fmt.Println("Invalid inventory format")
+			return
+		}
+
+		switch action {
+		case "add":
+			if !data.ValidItem(itemID) {
+				fmt.Printf("Invalid item ID: '%s'\n", itemID)
+				return
+			}
+
+			newItem := models.Item{
+				ID:           itemID,
+				UpgradeLevel: 0,
+			}
+			itemsRaw = append(itemsRaw, newItem)
+			data.Raw["ItemInventory"] = itemsRaw
+
+		case "remove":
+			var updated []interface{}
+
+			for _, i := range itemsRaw {
+				iMap := i.(map[string]interface{})
+				if iMap["itemID"] != itemID {
+					updated = append(updated, i)
+				}
+			}
+
+			data.Raw["ItemInventory"] = updated
+
+		case "upgrade":
+			found := false
+
+			for _, i := range itemsRaw {
+				iMap := i.(map[string]interface{})
+				if iMap["itemID"] == itemID {
+					if level, ok := iMap["upgradeLevel"].(float64); ok {
+						iMap["upgradeLevel"] = int(level) + 1
+						found = true
+						break
+					}
+				}
+			}
+
+			if !found {
+				fmt.Printf("Item '%s' not found\n", itemID)
+				return
+			}
+
+		default:
+			fmt.Println("Unknown inventory action: ", action)
+			return
+		}
+
+		err = data.Validate()
+		if err != nil {
+			fmt.Println("Validation error:", err)
+			return
+		}
+
+		err = os.WriteFile(path+".bak", original, 0644)
+		if err != nil {
+			fmt.Println("Backup failed:", err)
+			return
+		}
+
+		updated, err := json.MarshalIndent(data.Raw, "", "  ")
+		if err != nil {
+			fmt.Println("Error marshaling:", err)
+			return
+		}
+
+		err = os.WriteFile(path, updated, 0644)
+		if err != nil {
+			fmt.Println("Write failed:", err)
+			return
+		}
+
+		fmt.Println("Inventory updated successfully")
+
+	case "edit-materials":
+		if len(os.Args) < 5 {
+			fmt.Println("Usage: save-inspector edit-materials <slot> <materialID> <quantity>")
+			return
+		}
+
+		slot := os.Args[2]
+		materialID := os.Args[3]
+		var quantity int
+		_, err := fmt.Sscanf(os.Args[4], "%d", &quantity)
+		if err != nil {
+			fmt.Println("Invalid quantity")
+			return
+		}
+
+		path, err := utils.GetSavePathFromSlot(slot, overridePath)
+		if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
+
+		data, original, err := parser.LoadSave(path)
+		if err != nil {
+			fmt.Println("Error:", err)
+			return
+		}
+
+		matsRaw, ok := data.Raw["materialInventory"].([]interface{})
+		if !ok {
+			fmt.Println("Invalid materials format")
+			return
+		}
+
+		found := false
+		for _, mat := range matsRaw {
+			if mMap, ok := mat.(map[string]interface{}); ok {
+				if id, ok := mMap["materialID"].(string); ok && id == materialID {
+					mMap["quantity"] = quantity
+					found = true
+					break
+				}
+			}
+		}
+
+		if !found {
+			if !data.ValidMaterial(materialID) {
+				fmt.Printf("Invalid material ID: '%s'\n", materialID)
+				return
+			}
+
+			newMat := map[string]interface{}{
+				"materialID": materialID,
+				"quantity":   quantity,
+			}
+			matsRaw = append(matsRaw, newMat)
+			data.Raw["materialInventory"] = matsRaw
+
+			fmt.Printf("Material '%s' added with quantity %d\n", materialID, quantity)
+		} else {
+			fmt.Printf("Material '%s' updated with quantity %d\n", materialID, quantity)
+		}
+
+		err = data.Validate()
+		if err != nil {
+			fmt.Println("Validation error:", err)
+			return
+		}
+
+		err = os.WriteFile(path+".bak", original, 0644)
+		if err != nil {
+			fmt.Println("Backup failed:", err)
+			return
+		}
+
+		updated, err := json.MarshalIndent(data.Raw, "", "  ")
+		if err != nil {
+			fmt.Println("Error marshaling:", err)
+			return
+		}
+
+		err = os.WriteFile(path, updated, 0644)
+		if err != nil {
+			fmt.Println("Write failed:", err)
+			return
+		}
+
+		fmt.Println("Materials updated successfully")
 
 	default:
 		fmt.Println("Unknown command")

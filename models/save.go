@@ -1,6 +1,10 @@
 package models
 
-import "fmt"
+import (
+	"fmt"
+
+	"github.com/Bralimus/save_inspector/data"
+)
 
 type SaveData struct {
 	Gold              int        `json:"gold"`
@@ -57,4 +61,14 @@ func (s *SaveData) Validate() error {
 	}
 
 	return nil
+}
+
+func (s *SaveData) ValidItem(itemID string) bool {
+	_, exists := data.ValidItems[itemID]
+	return exists
+}
+
+func (s *SaveData) ValidMaterial(materialID string) bool {
+	_, exists := data.ValidMaterials[materialID]
+	return exists
 }
