@@ -9,17 +9,26 @@ A CLI tool built in Go for inspecting and safely editing Unity JSON save files f
  - Validation to prevent invalid game states
  - Preserves untouched JSON fields (no data loss)
 
-## Usage
-1. View list of save files <br>
+## Commands
+ - View list of save files <br>
     `go run main.go list`
-2. View editable fields within save file <br>
+ - View editable fields within save file <br>
     `go run main.go view <slot #>`
-3. View champions within specified save file <br>
+ - View full item and material inventory <br>
+    `go run main.go view-inventory`
+ - View champions within specified save file <br>
     `go run main.go view-champion <slot #> <championID>`
-4. Edit field within save file to desired value <br>
+ - Edit field within save file to desired value <br>
     `go run main.go edit <slot #> <field> <value>`
-5. Edit champion specific fields to desired value <br>
+ - Edit champion specific fields to desired value <br>
     `go run main.go edit-champion <slot #> <championID> <field> <value>`
+ - Add, remove, or upgrade items <br>
+    `go run main.go edit-items <slot #> <itemID> <action>`
+ - Set material quantity
+    `go run main.go edit-materials <slot #> <materialID> <quantity>`
+
+## Notes
+ - Database of all available items and materials are under data/
 
 ## How It Works
  - Loads the full save file into a raw JSON map and extracts editable fields into structured models.

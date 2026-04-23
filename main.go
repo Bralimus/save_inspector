@@ -1,7 +1,6 @@
 package main
 
 import (
-	"encoding/json"
 	"fmt"
 	"os"
 
@@ -131,12 +130,12 @@ func main() {
 		}
 
 		fmt.Println("=== ITEM INVENTORY ===")
-		for _, item := range data.ItemInventory {
+		for _, item := range data.Items {
 			fmt.Printf("- %s (Upgrade Level: %d)\n", item.ID, item.UpgradeLevel)
 		}
 
 		fmt.Println("\n=== MATERIAL INVENTORY ===")
-		for _, mat := range data.MaterialInventory {
+		for _, mat := range data.Materials {
 			fmt.Printf("- %s (Qty: %d)\n", mat.ID, mat.Quantity)
 		}
 
@@ -183,23 +182,9 @@ func main() {
 			return
 		}
 
-		// Backup original file
-		err = os.WriteFile(path+".bak", original, 0644)
+		err = utils.Save(path, original, data.Raw)
 		if err != nil {
-			fmt.Println("Backup failed:", err)
-			return
-		}
-
-		// Save updated file
-		updated, err := json.MarshalIndent(data.Raw, "", "  ")
-		if err != nil {
-			fmt.Println("Error marshaling:", err)
-			return
-		}
-
-		err = os.WriteFile(path, updated, 0644)
-		if err != nil {
-			fmt.Println("Write failed:", err)
+			fmt.Println("Error saving:", err)
 			return
 		}
 
@@ -273,27 +258,17 @@ func main() {
 			return
 		}
 
+		utils.Save(path, original, data.Raw)
+
 		err = data.Validate()
 		if err != nil {
 			fmt.Println("Validation error:", err)
 			return
 		}
 
-		err = os.WriteFile(path+".bak", original, 0644)
+		err = utils.Save(path, original, data.Raw)
 		if err != nil {
-			fmt.Println("Backup failed:", err)
-			return
-		}
-
-		updated, err := json.MarshalIndent(data.Raw, "", "  ")
-		if err != nil {
-			fmt.Println("Error marshaling:", err)
-			return
-		}
-
-		err = os.WriteFile(path, updated, 0644)
-		if err != nil {
-			fmt.Println("Write failed:", err)
+			fmt.Println("Error saving:", err)
 			return
 		}
 
@@ -339,7 +314,7 @@ func main() {
 				UpgradeLevel: 0,
 			}
 			itemsRaw = append(itemsRaw, newItem)
-			data.Raw["ItemInventory"] = itemsRaw
+			data.Raw["itemInventory"] = itemsRaw
 
 		case "remove":
 			var updated []interface{}
@@ -351,7 +326,7 @@ func main() {
 				}
 			}
 
-			data.Raw["ItemInventory"] = updated
+			data.Raw["itemInventory"] = updated
 
 		case "upgrade":
 			found := false
@@ -383,21 +358,9 @@ func main() {
 			return
 		}
 
-		err = os.WriteFile(path+".bak", original, 0644)
+		err = utils.Save(path, original, data.Raw)
 		if err != nil {
-			fmt.Println("Backup failed:", err)
-			return
-		}
-
-		updated, err := json.MarshalIndent(data.Raw, "", "  ")
-		if err != nil {
-			fmt.Println("Error marshaling:", err)
-			return
-		}
-
-		err = os.WriteFile(path, updated, 0644)
-		if err != nil {
-			fmt.Println("Write failed:", err)
+			fmt.Println("Error saving:", err)
 			return
 		}
 
@@ -471,21 +434,9 @@ func main() {
 			return
 		}
 
-		err = os.WriteFile(path+".bak", original, 0644)
+		err = utils.Save(path, original, data.Raw)
 		if err != nil {
-			fmt.Println("Backup failed:", err)
-			return
-		}
-
-		updated, err := json.MarshalIndent(data.Raw, "", "  ")
-		if err != nil {
-			fmt.Println("Error marshaling:", err)
-			return
-		}
-
-		err = os.WriteFile(path, updated, 0644)
-		if err != nil {
-			fmt.Println("Write failed:", err)
+			fmt.Println("Error saving:", err)
 			return
 		}
 

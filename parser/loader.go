@@ -43,7 +43,7 @@ func LoadSave(path string) (*models.SaveData, []byte, error) {
 				if lvl, ok := itemMap["upgradeLevel"].(float64); ok {
 					item.UpgradeLevel = int(lvl)
 				}
-				data.ItemInventory = append(data.ItemInventory, item)
+				data.Items = append(data.Items, item)
 			}
 		}
 	}
@@ -58,7 +58,7 @@ func LoadSave(path string) (*models.SaveData, []byte, error) {
 				if qty, ok := matMap["quantity"].(float64); ok {
 					mat.Quantity = int(qty)
 				}
-				data.MaterialInventory = append(data.MaterialInventory, mat)
+				data.Materials = append(data.Materials, mat)
 			}
 		}
 	}

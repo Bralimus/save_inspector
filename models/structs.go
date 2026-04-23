@@ -7,12 +7,12 @@ import (
 )
 
 type SaveData struct {
-	Gold              int        `json:"gold"`
-	SceneName         string     `json:"sceneName"`
-	ItemInventory     []Item     `json:"itemInventory"`
-	MaterialInventory []Material `json:"materialInventory"`
-	Party             []Champion `json:"party"`
-	All               []Champion `json:"all"`
+	Gold      int        `json:"gold"`
+	SceneName string     `json:"sceneName"`
+	Items     []Item     `json:"itemInventory"`
+	Materials []Material `json:"materialInventory"`
+	Party     []Champion `json:"party"`
+	All       []Champion `json:"all"`
 
 	Raw map[string]interface{} `json:"-"`
 }

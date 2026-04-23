@@ -11,8 +11,8 @@ func PrintSummary(data *models.SaveData) {
 	fmt.Println("Gold:", data.Gold)
 	fmt.Println("Scene:", data.SceneName)
 
-	fmt.Println("Items:", len(data.ItemInventory))
-	fmt.Println("Materials:", len(data.MaterialInventory))
+	fmt.Println("Items:", len(data.Items))
+	fmt.Println("Materials:", len(data.Materials))
 
 	PrintChampions(data.Party, data.All)
 }
