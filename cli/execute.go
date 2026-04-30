@@ -2,6 +2,7 @@ package cli
 
 import (
 	"github.com/Bralimus/save_inspector/app"
+	"github.com/Bralimus/save_inspector/server"
 )
 
 func Execute(app *app.App, rawArgs []string) {
@@ -15,6 +16,8 @@ func Execute(app *app.App, rawArgs []string) {
 	command := args[0]
 
 	switch command {
+	case "serve":
+		server.Start(app)
 	case "list":
 		List(app, args)
 	case "view":
